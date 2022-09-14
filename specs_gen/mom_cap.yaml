@@ -1,0 +1,17 @@
+dut_class: xbase.layout.cap.core.MOMCapCore
+impl_lib: AAA_MOMCAP
+impl_cell: AA_momcap
+root_dir: gen_outputs/momcap
+
+params:
+  bot_layer: 1
+  top_layer: 4
+  width: 2000
+  height: 2000
+  margin: 50
+  port_tr_w: 2
+  options:
+    cap_type: standard
+  half_blk_x: False
+  half_blk_y: False
+  fill_dummy: False
