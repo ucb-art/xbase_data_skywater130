@@ -1,0 +1,16 @@
+dut_class: xbase.layout.cap.mim.MIMCap
+impl_lib: AAA_MIMCAP_45
+#impl_lib: AAA_MIMCAP_34
+impl_cell: AA_mimcap
+root_dir: gen_outputs/mimcap
+
+params:
+  mim_type: standard  # 'standard' or '45' or '34'; 'standard' and '45' are identical
+#  mim_type: 34  # 'standard' or '45' or '34'; 'standard' and '45' are identical
+  unit_width: 5000
+  unit_height: 5000
+  num_rows: 3
+  num_cols: 3
+  dum_col_l: 1
+  bot_port_tr_w: 1
+  top_port_tr_w: 1
